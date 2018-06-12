@@ -1,0 +1,126 @@
+font-family: 'Song Myung', serif;
+font-family: 'Varela Round', sans-serif;
+
+/* GLOBAL CSS */
+
+*{
+  max-width: 1080;
+}
+
+body{
+  line-height: 1.5em;
+}
+
+h2 {
+  font-size: 40px;
+  font-family: 'Varela Round', sans-serif;
+}
+
+hr {
+  width: 640px;
+}
+
+#side-nav{
+  font-family: 'Varela Round', sans-serif;
+  font-size: 18px;
+}
+
+/* ABOUT */
+
+.about-container {
+  margin-top: 30px;
+  padding-left: 20px;
+}
+
+#about-me {
+  font-family: 'Varela Round', sans-serif;
+  font-size: 45px;
+  padding: 20px;
+}
+
+#short-bio{
+  padding-top: 25px;
+  font-family: 'Song Myung', serif;
+}
+
+.projects-container {
+  margin-top: 30px;
+  padding-left: 50px;
+}
+
+#resume-links{
+  font-size: 18px;
+  font-family: 'Varela Round', sans-serif;
+}
+
+form img{
+  width: 30px;
+  height: 30px;
+}
+
+#icons {
+  margin-top: 15px;
+}
+
+
+
+
+
+/* SKILLS CONTAINER */
+
+.skills-container{
+  margin: 60px;
+}
+
+/* PROJECTS CONTAINER */
+
+.img-container img{
+  height: auto; 
+  width: auto; 
+  max-width: 50px; 
+  max-height: 50px;
+}
+
+/* OVERLAY TEXT */
+.projects {
+  position: relative;
+
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 105%;
+  opacity: 0;
+  transition: .6s ease;
+  background-color: whitesmoke;
+}
+
+.projects:hover .overlay {
+  opacity: .9 ;
+}
+
+.text {
+  color: gray;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* CONTACT CONTAINER */
+
+.contact-container{
+
+}
+
+form{
+  margin-top: 10px;
+}
